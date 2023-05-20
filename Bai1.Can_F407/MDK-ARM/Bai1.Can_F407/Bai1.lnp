@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"bai1.can_f407\startup_stm32f407xx.o"
+"bai1.can_f407\main.o"
+"bai1.can_f407\stm32f4xx_it.o"
+"bai1.can_f407\stm32f4xx_hal_msp.o"
+"bai1.can_f407\stm32f4xx_hal_can.o"
+"bai1.can_f407\stm32f4xx_hal_rcc.o"
+"bai1.can_f407\stm32f4xx_hal_rcc_ex.o"
+"bai1.can_f407\stm32f4xx_hal_flash.o"
+"bai1.can_f407\stm32f4xx_hal_flash_ex.o"
+"bai1.can_f407\stm32f4xx_hal_flash_ramfunc.o"
+"bai1.can_f407\stm32f4xx_hal_gpio.o"
+"bai1.can_f407\stm32f4xx_hal_dma_ex.o"
+"bai1.can_f407\stm32f4xx_hal_dma.o"
+"bai1.can_f407\stm32f4xx_hal_pwr.o"
+"bai1.can_f407\stm32f4xx_hal_pwr_ex.o"
+"bai1.can_f407\stm32f4xx_hal_cortex.o"
+"bai1.can_f407\stm32f4xx_hal.o"
+"bai1.can_f407\stm32f4xx_hal_exti.o"
+"bai1.can_f407\stm32f4xx_hal_tim.o"
+"bai1.can_f407\stm32f4xx_hal_tim_ex.o"
+"bai1.can_f407\system_stm32f4xx.o"
+--strict --scatter "Bai1.Can_F407\Bai1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai1.map" -o Bai1.Can_F407\Bai1.Can_F407
